@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    height:80vh;
+    background-color: #7289da;
+}
+h3{
+    color:#ffffff;
+    font-family: 'Poppins';
+    text-align: center;
+    width: center;
+    font-size: 45px;
+}
+h4{
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 45px;
+    margin: 380px;
+    padding-left:30px;
+}
+
+#clockface{
+    width: 550px;
+    height: 135px;
+    position: absolute;
+    transform: translate(-40%,-65%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 97%;
+}
+#clockface div{
+    position: relative;
+    background-color: #ffffff;
+    height: 100%;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 65px;
+    justify-content: center;
+    border-radius: 25px;
+}
+#clockface zone{
+    position: relative;
+    background-color: #ffffff;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    justify-content: center;
+    border-radius: 25px;
+}
